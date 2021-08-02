@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:black; 
+    text-decoration:underline; 
+    cursor:pointer;  
+}
+
+.portfolio-card-container{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+}
+
+.portfolio-card{
+    padding: 0 7% 5% 7%;
+    /* height: 600px; */
+}
+
+.portfolio-card .img-frame{
+    width: 100%;
+    background-image: url("https://www.juliacodes.com/static/ForecastThumb-5e5a9ae9c750e704b388d623038d4312.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 4px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.portfolio-card:hover .img-frame{
+    transform: scale(1.03);
+}
+
+.portfolio-card h1{
+    margin:0;
+    font-weight:700;
+    font-size: 2.3rem;
+    padding: 1.8rem 0 0 0;
+}
+
+.portfolio-card p{
+    padding: 1.8rem 0;
+    margin:0;
+    color: rgb(105, 105, 105);
+}
+
+.portfolio-card h6{
+    font-weight:700;
+    border-bottom: 2px solid transparent;
+    letter-spacing: 0;
+    font-size: 1rem;
+    transition: text-decoration 0.3s ease 0s;
+}
+
+.portfolio-card:hover h6{
+    text-decoration: underline;
+}
+
+
+
+
+

@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
+import HeadContainer from "./components/HeadContainer";
+import SectionTitle from "./components/SectionTitle";
+import PortfolioCard from "./components/PortfolioCard";
 
 function App() {
   return (
     <div>
-      <h1>Hello React HELLO AGAIN</h1>
+      <HeadContainer />
+      <SectionTitle />
+      <PortfolioCard />
+      <PortfolioCard />
     </div>
   );
 }
