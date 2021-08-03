@@ -1,0 +1,45 @@
+.skill-card-container{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+}
+
+.skill-col{
+    padding: 5% 7% 5% 7%;
+    margin-bottom:2rem;
+}
+
+.skill-card{
+    height: 452px;
+    padding: 5% 8% 5% 7%;
+    border-radius: 4px;
+}
+
+.skill-col .software{
+    border: 2px solid rgb(180, 225, 231);
+    color: black;
+}
+
+.skill-col .marketing{
+    border:2px solid #FFAAA6;
+    color: black;
+}
+
+.skill-card h1{
+    margin:0;
+    font-weight:700;
+    font-size: 2.3rem;
+}
+
+.software span{
+    color:rgb(180, 225, 231);
+}
+
+.marketing span{
+    color:#FFAAA6;
+}
+
+.skill-card p{
+    margin-top: 2.3rem;
+    color: rgb(105, 105, 105);
+}

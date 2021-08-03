@@ -9,6 +9,10 @@
 
 }
 
+/* .icon-container{
+    float: right;
+} */
+
 
 .github,.linkedin,.insta{
     color: gray;
@@ -35,8 +39,12 @@
     font-size: 3.75rem;
 }
 
-.head-container span{
+.software{
     color:lightblue;
+}
+
+.marketing{
+    color:#FFAAA6;
 }
 
 .head-container .img-frame{
@@ -49,10 +57,28 @@
     margin-top: 4rem;
 }
 
+.head-container .introduction-content{
+    margin-top: 2.7rem;
+}
+
+.head-container .introduction-content p{
+    color: rgb(105, 105, 105);
+}
 
 
 @media screen and (max-width: 600px) {
+    .head-container{
+        padding: 7% 5% 0;
+    }
+
     .head-container h1{
         font-size: 8vw;
+    }
+
+    .head-container .img-frame{
+        height: 300px;
+        background-size: cover;
+        background-position: 50% 40%;
+      
     }
   }

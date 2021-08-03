@@ -1,0 +1,35 @@
+/* #footer {
+    position: absolute;
+    bottom: 0;
+  } */
+
+.footer-container{
+    background-color: #fcfcfc;
+    padding: 7% 6% 3%;
+}
+
+.footer-container h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.footer-container .icon-container{
+    float:right;   
+}
+
+.github,.linkedin,.insta{
+    color: gray;
+    margin-bottom: 3rem;
+    cursor: pointer;
+
+}
+
+.github:hover,.linkedin:hover,.insta:hover{
+    color: black;
+
+}
+
+.linkedin,.insta{
+    margin-left: 1.5rem;
+}

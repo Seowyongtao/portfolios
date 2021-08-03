@@ -1,0 +1,17 @@
+.contact-container{
+    background-color: #fcfcfc;
+    padding-bottom: 5%;
+}
+
+.contact-container h6{
+    font-weight:700;
+    border-bottom: 2px solid transparent;
+    letter-spacing: 0;
+    font-size: 1rem;
+    transition: text-decoration 0.3s ease 0s;
+    padding-left: 6%;
+}
+
+h6:hover{
+    text-decoration: underline;
+}
